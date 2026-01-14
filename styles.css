@@ -1,0 +1,7 @@
+body { font-family: Arial, sans-serif; background: #1a1a1a; color: #fff; text-align: center; }
+header { padding: 10px; }
+button { padding: 10px 20px; margin: 5px; background: #007bff; color: white; border: none; cursor: pointer; }
+button:hover { background: #0056b3; }
+canvas { border: 1px solid #fff; background: #000; }
+section { margin: 20px; }
+#status p { margin: 5px; }

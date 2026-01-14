@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WalletHunter Pro - Web</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <header>
+        <h1>WalletHunter Pro</h1>
+        <button id="startBtn">Start Hunting</button>
+        <button id="stopBtn">Stop Hunting</button>
+    </header>
+    <section id="radarSection">
+        <h2>Visual Radar</h2>
+        <canvas id="radarCanvas" width="300" height="300"></canvas>
+    </section>
+    <section id="spectrogramSection">
+        <h2>Realtime Spectrogram</h2>
+        <canvas id="spectrogramCanvas" width="600" height="200"></canvas>
+    </section>
+    <section id="status">
+        <p id="nfcStatus">NFC: Idle</p>
+        <p id="metalStatus">Metal/Mag Stripe: Idle</p>
+        <p id="pingStatus">Ping: Idle</p>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
